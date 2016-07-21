@@ -1,0 +1,40 @@
+{
+  "name": "react-flyd-binding",
+  "version": "0.0.1",
+  "description": "Helpers to integrate flyd and react",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -r -f lib && babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xialvjun/react-flyd-binding.git"
+  },
+  "keywords": [
+    "react",
+    "flyd",
+    "functional",
+    "reactive"
+  ],
+  "author": "xialvjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xialvjun/react-flyd-binding/issues"
+  },
+  "homepage": "https://github.com/xialvjun/react-flyd-binding",
+  "dependencies": {
+    "flyd": "^0.2.2",
+    "react": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "html-webpack-plugin": "^2.22.0",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
